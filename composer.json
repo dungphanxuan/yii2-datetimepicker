@@ -1,14 +1,18 @@
 {
-    "name": "janisto/yii2-timepicker",
+    "name": "dungphanxuan/yii2-datetimepicker",
     "description": "Yii 2 widget for jQuery Timepicker Addon.",
     "keywords": ["yii2", "timepicker", "date", "time", "datetime", "widget", "extension"],
-    "homepage": "https://github.com/janisto/yii2-timepicker",
+    "homepage": "https://github.com/dungphanxuan/yii2-datetimepicker",
     "type": "yii2-extension",
     "license": "public domain",
     "authors": [
         {
             "name": "Jani Mikkonen",
             "email": "janisto@php.net"
+        }
+        {
+            "name": "Dung Phan Xuan",
+            "email": "dungphanxuan@vccorp.vnt"
         }
     ],
     "support": {
@@ -27,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "janisto\\timepicker\\": "src"
+            "dungphanxuan\\datetimepicker\\": "src"
         }
     },
     "extra": {
